@@ -1,2 +1,3 @@
-# cs-Win32-Hook
-Some C# code to make Win32 keyboard/mouse hooking a bit(?) easier.
+# Hook Windows keyboard/mouse events with C Sharp
+
+https://renenyffenegger.ch/notes/Windows/tools/event-hooking/cs
