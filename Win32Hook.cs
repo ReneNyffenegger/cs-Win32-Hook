@@ -1,6 +1,6 @@
 // vi: foldmarker={{{,}}} foldmethod=marker
 //
-// Version 0.2  2021-08-11
+// Version 0.3  2021-08-11
 //
 using System;
 using System.IO;
@@ -73,6 +73,7 @@ namespace TQ84 { namespace Win32 {
     } // }}}
 
     public enum ScanCode   : short { // {{{
+      NONE                =   0, // V0.3 - seems necessary to be able to assign 0 as scan code to inputs.U.ki.wScan in PowerShell
 //    LBUTTON             =   0,
 //    RBUTTON             =   0,
       CANCEL              =  70,
@@ -165,6 +166,7 @@ namespace TQ84 { namespace Win32 {
     } // }}}
 
     public   enum KEYEVENTF : uint { // {{{
+        NONE        = 0x0000, // V0.3 - seems necessary to be able to assign 0 to input.U.ki.dwFlags in PowerShell
         EXTENDEDKEY = 0x0001,
         KEYUP       = 0x0002,
         SCANCODE    = 0x0008,
