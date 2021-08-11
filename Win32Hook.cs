@@ -22,7 +22,7 @@ namespace TQ84 { namespace Win32 {
        SHIFT = 0x10, CONTROL = 0x11,
        MENU                = 0x12,
        PAUSE               = 0x13,
-       CAPITAL             = 0x14,
+       CAPITAL             = 0x14, /* Caps Lock */
        KANA = 0x15, HANGUL = 0x15, JUNJA = 0x17, HANJA = 0x19, KANJI = 0x19,
        FINAL               = 0x18, // FINAL between HANGUL and HANJA
        ESCAPE              = 0x1B,
@@ -87,7 +87,7 @@ namespace TQ84 { namespace Win32 {
       CONTROL             =  29,
       MENU                =  56,
 //    PAUSE               =   0,
-      CAPITAL             =  58,
+      CAPITAL             =  58, /* Caps Lock */
 //    KANA                =   0,
 //    HANGUL              =   0,
 //    JUNJA               =   0,
